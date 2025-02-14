@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 234, 234);
+}
+.header{
+    /* width: 100%; */
+    background-color: orange;
+    margin: 7px 8%;
+    text-align: center;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+.navbar{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 1%;
+}
+.header .logo{
+    width: 400px;
+    height: 250px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+
+    
+}
+.navbar ul li{
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration:  none;
+    color: black;
+    font-weight: 70px;
+    margin-right: 20px;
+
+}
+ .buttons{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.buttons li{
+    margin-top: 10px;
+    font-size: 700;
+}
+.buttons li a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  font-weight: 18px;
+  
+}
+.buttons .btn{
+    padding: 10px 30px;
+    margin-bottom: 4px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: rgb(235, 185, 91);
+    color: white;
+}
+
+ .hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10%;
+ }
+ .hero .left{
+    width: 350px;
+    margin-top: 10px;
+
+ }
+ .hero .left h1{
+    width: 450px;
+    font-size: 30px;
+    font-weight: 600;
+
+ }
+
+ .hero .right{
+    width: 450px;
+    margin-top: 10px;
+ }
+
+
+ .hero .right p{
+    width: 450px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+  padding: 10px;
+    
+ }
+
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 15px;
+
+    margin-top: 30px;
+    width: 100%;
+     height:  300px;
+    
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.footer .contact{
+    margin: 20px 20px;
+}
+.footer .contact img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.footer .contact span{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin-left: 5px;
+}
+.footer .contact i{
+    margin-right: 10px;
+    color: rgb(24, 23, 23);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .home{
+    margin: 20px 20px;
+    
+}
+.footer .home h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+    margin-bottom: 10px;
+}
+.footer .home p{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin-bottom: 10px;
+}
+.footer .about{
+    margin: 20px 20px;
+}
+.footer .about h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+    margin-bottom: 10px;
+}
+.footer .about p{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin-bottom: 10px;
+}
+.footer .socail{
+    margin: 20px 20px;
+}
+.footer .socail h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+    margin-bottom: 10px;
+}
+.footer .socail p{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin-bottom: 10px;
+}
+.footer .socail i{
+    margin-right: 10px;
+    color: rgb(24, 23, 23);
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 4px;
+     border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 30px;
+    height: 30px;
+    scale: 1.5;
+}
+
+.footer center{
+    margin-top: 70px;
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+}
+
